@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Dice Game</h1>
+    <div class="game-container">
+      <div id="score-container">
+        <h2>Current Score:&nbsp;<span id="score">0</span></h2>
+      </div>
+      <h2>Dice 1:&nbsp; <span id="dice1">0</span></h2>
+      <h2>Dice 2:&nbsp; <span id="dice2">0</span></h2>
+      <div class="rolls-remaining">
+        <h2 id="rolls">
+          Number of rolls remaining:&nbsp; <span id="rolls-remains">10</span>
+        </h2>
+      </div>
+      <div class="button-container">
+        <button id="roll-btn">Roll</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>

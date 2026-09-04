@@ -1,0 +1,35 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#roll-btn,
+#reset-btn {
+  width: 100px;
+  height: 45px;
+  font-size: 14px;
+  border-color: orange;
+  border-radius: 5px;
+  font-family: "Comic Relief", sans-serif;
+  background-color:bisque
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Comic Relief", sans-serif;
+}
+
+body{
+    background-color: beige;
+}
+
+.game-container{
+    padding: 30px;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    margin: auto;
+}
